@@ -1,0 +1,32 @@
+{
+  "name": "moebotapi",
+  "scripts": {
+  },
+  "env": {
+    "APIAI_ACCESS_TOKEN": {
+      "required": true
+    },
+    "APIAI_LANG": {
+      "required": true
+    },
+    "APP_NAME": {
+      "required": true
+    },
+    "TELEGRAM_TOKEN": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/spider-z/moebotapi.git"
+    }
+  ]
+}
